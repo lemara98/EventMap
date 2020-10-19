@@ -1,0 +1,83 @@
+﻿<Page x:Class="EventMap.Pages.TablePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EventMap.Classes"
+      xmlns:core="clr-namespace:System;assembly=mscorlib"
+      mc:Ignorable="d" 
+      d:DesignHeight="360" d:DesignWidth="1055"
+      Title="TablePage">
+    <Page.Resources>
+        <ObjectDataProvider x:Key="posecenostEnum" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:POSECENOST_DOGADJAJA"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="tipEnum" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:TIP"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <Style x:Key="gridStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <ScrollViewer Height="400" VerticalAlignment="Top" HorizontalAlignment="Left"  PreviewMouseWheel="ListViewScrollViewer_PreviewMouseWheel" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Visible">
+            <DataGrid  x:Name="listaSvihDogadjajaDataGrid" ItemsSource="{Binding Path=SviVidljiviDogadjaji, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Style="{DynamicResource MaterialDesignDataGrid}" IsReadOnly="True" AutoGenerateColumns="False" IsSynchronizedWithCurrentItem="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Država"  Binding="{Binding Path=Drzava.DrzavaText}" ElementStyle="{StaticResource gridStyle}"/>
+                    <DataGridTextColumn Header="Grad" Binding="{Binding Path=Grad.GradText}" ElementStyle="{StaticResource gridStyle}"/>
+                    <DataGridTextColumn Header="Jedinstvena oznaka"  Binding="{Binding Path=JedCitOzn}" ElementStyle="{StaticResource gridStyle}"/>
+
+                    <DataGridTextColumn Header="Naziv" Binding="{Binding Path=Naziv}" ElementStyle="{StaticResource gridStyle}"/>
+                    <DataGridTextColumn Header="Opis" Binding="{Binding Path=Opis}" ElementStyle="{StaticResource gridStyle}"/>
+                    <DataGridTemplateColumn Header="Tip" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <WrapPanel>
+                                    <Image Source="{Binding Path=PutanjaIkonice}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    <Label Content="{Binding Path=Tip}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </WrapPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Posećenost[Osoba]" Binding="{Binding Path=Posecenost}" ElementStyle="{StaticResource gridStyle}"/>
+                    <DataGridCheckBoxColumn Header="Humanitarnog karaktera" Binding="{Binding Path=HumanitarniKarakter}" ElementStyle="{DynamicResource MaterialDesignActionCheckBox}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Troškovi" Binding="{Binding Troskovi, StringFormat=\{0:C\}}" ElementStyle="{StaticResource gridStyle}"/>
+                    <!--<DataGridTextColumn Header="Datum održavanja" Binding="{Binding Path=DatumOdrzavanja, StringFormat=d, ConverterCulture=en-GB}" CellStyle="{DynamicResource MaterialDesignDataGridCell}" />-->
+                    <DataGridTemplateColumn Header="Datum održavanja" CellStyle="{DynamicResource MaterialDesignDataGridCell}" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                    <TextBlock Text="{Binding Path=DatumOdrzavanja, StringFormat=d, ConverterCulture=en-GB}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </WrapPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Istorija datuma održavanja" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                    <Button x:Name="pregledIstorijeOdrzavanjaButton" Content="Pregledaj istoriju održavanja" ToolTip="Da biste videli istoriju datuma održavanja ovog događaja pritisnite ovo dugme" Click="pregledIstorijeOdrzavanjaButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </WrapPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Etikete" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                    <Button x:Name="pregledListeEtiketaButton" Content="Pregledaj etikete" ToolTip="Da biste videli etikete ovog događaja pritisnite ovo dugme" Click="pregledListeEtiketaButton_Click" />
+                                </WrapPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+    </Grid>
+</Page>

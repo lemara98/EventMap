@@ -1,0 +1,66 @@
+﻿<Page x:Class="EventMap.Pages.HelpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:EventMap.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="1060"
+      Title="HelpPage">
+
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"  Cursor="Hand" Padding="20" Width="800" ToolTip="Dobrodošli" FontSize="50" TextAlignment="Center" Height="90" Margin="0,-34,0,-1" TextOptions.TextFormattingMode="Display">Uputstvo za upotrebu aplikacije</TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                ------------------------------------------------------------------------------
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center">
+                Video uputstvo
+            </TextBlock>
+            <Button x:Name="prikaziTutorijal" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,15" Click="prikaziTutorijal_Click" ToolTip="Kliknite da biste prikazali tutorijal">
+                <WrapPanel>
+                    <materialDesign:PackIcon Kind="Play" Width="50" Height="50" />
+                    <TextBlock Text="Prikaži tutorijal" Style="{StaticResource MaterialDesignHeadline4TextBlock}" />
+                </WrapPanel>
+            </Button>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                ------------------------------------------------------------------------------
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center">
+                Tekstualno uputstvo
+            </TextBlock>
+            
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                Početni ekran nam otvara karticu sa mapom i pokazuje početno stanje aplikacije
+                Prvi vrhu imamo 4 kartice: Prikaz mape, Prikaz tabele sa podacima, Pomoć i Informacije.
+                Sa leve strane imamo pomoćni panel koji nam govori o opštim podacima odabranog pina sa mape. 
+                Taj panel radi isključivo kada je uključena kartica sa prikazom mape. Takođe imamo odeljak sa filterima 
+                koji nam pomanže da nađemo događaje koji nas zanimaju. Postoji i pretraga koja se vrši po formuli: 
+                atribut1 = vrednost | atribut2 = vrednost | ... Pinovi se mogu podešavati kada se neki od njih odabere i 
+                zatim klikom na dugme ažuriraj pin. Da bi se video detaqniji prikaz pina bez mogućnosti da mewamo podatke 
+                onda kliknemo dugme detaljniji pregled pina, a ako želimo da ga obrišemo onda samo kliknemo obrišite pin dugme 
+                i potvrdimo brisanje. 
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                ------------------------------------------------------------------------------
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                Kartica sa prikazom tabele nam pokazuje skup svih događaja koji postoje i mesta u kojima se oni nalaze. 
+                Ovde su nam omogućeni filteri za upotrebu ali ne i panel sa leve strane jer je suvišan.
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                ------------------------------------------------------------------------------
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                U kartici za pomoć možemo pročitati podatke o korišćenju ove aplikacije kao što evo sada čitate
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                ------------------------------------------------------------------------------
+            </TextBlock>
+            <TextBlock FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap">
+                U informacijama možete naći dodatne informacije o autoru i aplikaciji
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

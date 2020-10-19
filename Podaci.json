@@ -1,0 +1,584 @@
+[
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "proba01",
+        "Naziv": "Beach Beer Fest",
+        "Opis": "teskt opis proba01",
+        "Tip": 2,
+        "TipIndex": 2,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\beer.png",
+        "HumanitarniKarakter": false,
+        "Troskovi": 111111,
+        "Drzava": {
+          "DrzavaText": "SAD",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 160.0,
+          "YY": 110.0,
+          "GradText": "Majami",
+          "DrzavaGradova": {
+            "DrzavaText": "SAD",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [
+          "2020-01-06T00:00:00"
+        ],
+        "DatumOdrzavanja": "2020-01-10T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "Random tekst na etiketi",
+            "Boja": "#FFAFEEEE",
+            "BojaBrush": "#FFAFEEEE",
+            "JedinstvenaOznakaEtikete": "Etiketa01"
+          },
+          {
+            "Info": "sadsadas",
+            "Boja": "#FF4169E1",
+            "BojaBrush": "#FF4169E1",
+            "JedinstvenaOznakaEtikete": "dsadasdas"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "JedCitOzn": "dsadas",
+        "Naziv": "Art Fest",
+        "Opis": "umetnost",
+        "Tip": 3,
+        "TipIndex": 3,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\art.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 10000,
+        "Drzava": {
+          "DrzavaText": "SAD",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 160.0,
+          "YY": 110.0,
+          "GradText": "Majami",
+          "DrzavaGradova": {
+            "DrzavaText": "SAD",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-02-20T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "ddsdasdas",
+            "Boja": "#FF32CD32",
+            "BojaBrush": "#FF32CD32",
+            "JedinstvenaOznakaEtikete": "sadasas"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 2,
+    "X": 160.0,
+    "Y": 110.0,
+    "Grad": {
+      "XX": 160.0,
+      "YY": 110.0,
+      "GradText": "Majami",
+      "DrzavaGradova": {
+        "DrzavaText": "SAD",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "SAD",
+      "Oznacena": true
+    }
+  },
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "SPF",
+        "Naziv": "Svetsko Prvenstvo u fudbalu",
+        "Opis": "Tirke i Mosa ubise Milosa",
+        "Tip": 4,
+        "TipIndex": 4,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\fair.png",
+        "HumanitarniKarakter": false,
+        "Troskovi": 2000000,
+        "Drzava": {
+          "DrzavaText": "Urugvaj",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 246.0,
+          "YY": 282.0,
+          "GradText": "Urugvaj",
+          "DrzavaGradova": {
+            "DrzavaText": "Urugvaj",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-16T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "Pimplanje sirovog kokošijeg jajeta",
+            "Boja": "#FF87CEEB",
+            "BojaBrush": "#FF87CEEB",
+            "JedinstvenaOznakaEtikete": "Šutni Šutni"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "JedCitOzn": "sdasdas",
+        "Naziv": "dsad",
+        "Opis": "dsadas",
+        "Tip": 2,
+        "TipIndex": 2,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\beer.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 1111,
+        "Drzava": {
+          "DrzavaText": "Urugvaj",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 246.0,
+          "YY": 282.0,
+          "GradText": "Urugvaj",
+          "DrzavaGradova": {
+            "DrzavaText": "Urugvaj",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-23T00:00:00",
+        "ListaEtiketa": [],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "JedCitOzn": "dasdas",
+        "Naziv": "dsdasds",
+        "Opis": "dsadasas",
+        "Tip": 3,
+        "TipIndex": 3,
+        "Posecenost": 2,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\art.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 0,
+        "Drzava": {
+          "DrzavaText": "Urugvaj",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 246.0,
+          "YY": 282.0,
+          "GradText": "Urugvaj",
+          "DrzavaGradova": {
+            "DrzavaText": "Urugvaj",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [
+          "2020-01-21T00:00:00",
+          "2020-01-04T00:00:00"
+        ],
+        "DatumOdrzavanja": "2020-01-28T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "dsadasdas",
+            "Boja": "#FF98FB98",
+            "BojaBrush": "#FF98FB98",
+            "JedinstvenaOznakaEtikete": "dasdas"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 3,
+    "X": 246.0,
+    "Y": 282.0,
+    "Grad": {
+      "XX": 246.0,
+      "YY": 282.0,
+      "GradText": "Urugvaj",
+      "DrzavaGradova": {
+        "DrzavaText": "Urugvaj",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "Urugvaj",
+      "Oznacena": true
+    }
+  },
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "Cinema city",
+        "Naziv": "Cinema city",
+        "Opis": "Cinema city",
+        "Tip": 1,
+        "TipIndex": 1,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\film.png",
+        "HumanitarniKarakter": false,
+        "Troskovi": 20000,
+        "Drzava": {
+          "DrzavaText": "Srbija",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 0.0,
+          "YY": 0.0,
+          "GradText": "Novi Sad",
+          "DrzavaGradova": {
+            "DrzavaText": "Srbija",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [
+          "2020-01-15T00:00:00"
+        ],
+        "DatumOdrzavanja": "2020-04-14T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "dsadsa",
+            "Boja": "#FFFFE4E1",
+            "BojaBrush": "#FFFFE4E1",
+            "JedinstvenaOznakaEtikete": "dsa"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "JedCitOzn": "TBFEST",
+        "Naziv": "Tamburica fest",
+        "Opis": "Zvonko Bogdan",
+        "Tip": 0,
+        "TipIndex": 0,
+        "Posecenost": 3,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\music.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 100000,
+        "Drzava": {
+          "DrzavaText": "Srbija",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 0.0,
+          "YY": 0.0,
+          "GradText": "Novi Sad",
+          "DrzavaGradova": {
+            "DrzavaText": "Srbija",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [
+          "2019-06-20T00:00:00"
+        ],
+        "DatumOdrzavanja": "2020-06-20T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "hop hop hop",
+            "Boja": "#FFFFFF00",
+            "BojaBrush": "#FFFFFF00",
+            "JedinstvenaOznakaEtikete": "sdasda"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 2,
+    "X": 477.0,
+    "Y": 62.0,
+    "Grad": {
+      "XX": 0.0,
+      "YY": 0.0,
+      "GradText": "Novi Sad",
+      "DrzavaGradova": {
+        "DrzavaText": "Srbija",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "Srbija",
+      "Oznacena": true
+    }
+  },
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "ddasds",
+        "Naziv": "Lemuri",
+        "Opis": "pingvini",
+        "Tip": 1,
+        "TipIndex": 1,
+        "Posecenost": 3,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\film.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 100000,
+        "Drzava": {
+          "DrzavaText": "Madagaskar",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 0.0,
+          "YY": 0.0,
+          "GradText": "Antananarivo",
+          "DrzavaGradova": {
+            "DrzavaText": "Madagaskar",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-01T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "Major Kovalski Smor ",
+            "Boja": "#FFFFD700",
+            "BojaBrush": "#FFFFD700",
+            "JedinstvenaOznakaEtikete": "oznaka"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 1,
+    "X": 570.0,
+    "Y": 241.0,
+    "Grad": {
+      "XX": 0.0,
+      "YY": 0.0,
+      "GradText": "Antananarivo",
+      "DrzavaGradova": {
+        "DrzavaText": "Madagaskar",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "Madagaskar",
+      "Oznacena": true
+    }
+  },
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "SLIKA",
+        "Naziv": "neki naziv",
+        "Opis": "Slike Save Šumanovića u izložbi",
+        "Tip": 3,
+        "TipIndex": 3,
+        "Posecenost": 2,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\art.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 10000,
+        "Drzava": {
+          "DrzavaText": "Južna Koreja",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 807.0,
+          "YY": 88.0,
+          "GradText": "Seul",
+          "DrzavaGradova": {
+            "DrzavaText": "Južna Koreja",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-01T00:00:00",
+        "ListaEtiketa": [],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "JedCitOzn": "FILMFEST",
+        "Naziv": "Svet je žut",
+        "Opis": "Doći će žuti ljudi",
+        "Tip": 1,
+        "TipIndex": 1,
+        "Posecenost": 0,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\film.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 1234567,
+        "Drzava": {
+          "DrzavaText": "Južna Koreja",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 807.0,
+          "YY": 88.0,
+          "GradText": "Seul",
+          "DrzavaGradova": {
+            "DrzavaText": "Južna Koreja",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-01T00:00:00",
+        "ListaEtiketa": [
+          {
+            "Info": "1389",
+            "Boja": "#FF2E8B57",
+            "BojaBrush": "#FF2E8B57",
+            "JedinstvenaOznakaEtikete": "gggg"
+          }
+        ],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 2,
+    "X": 807.0,
+    "Y": 88.0,
+    "Grad": {
+      "XX": 807.0,
+      "YY": 88.0,
+      "GradText": "Seul",
+      "DrzavaGradova": {
+        "DrzavaText": "Južna Koreja",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "Južna Koreja",
+      "Oznacena": true
+    }
+  },
+  {
+    "ListaDogadjaja": [
+      {
+        "JedCitOzn": "qqwdq",
+        "Naziv": "dsadsa",
+        "Opis": "cxycyxcyx",
+        "Tip": 0,
+        "TipIndex": 0,
+        "Posecenost": 3,
+        "PutanjaIkonice": "C:\\Users\\Mile\\source\\repos\\EventMap2\\EventMap\\Resources\\Icons\\music.png",
+        "HumanitarniKarakter": true,
+        "Troskovi": 123123,
+        "Drzava": {
+          "DrzavaText": "Ujedinjeno Kraljevstvo",
+          "Oznacena": true
+        },
+        "Grad": {
+          "XX": 421.0,
+          "YY": 44.0,
+          "GradText": "London",
+          "DrzavaGradova": {
+            "DrzavaText": "Velika Britanija",
+            "Oznacena": true
+          },
+          "Oznacen": true
+        },
+        "IstorijaDatumaOdrzavanja": [],
+        "DatumOdrzavanja": "2020-01-01T00:00:00",
+        "ListaEtiketa": [],
+        "Vidljiv": true,
+        "PosecenostDogadjajaEnum": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "BrojDogadjaja": 1,
+    "X": 421.0,
+    "Y": 44.0,
+    "Grad": {
+      "XX": 421.0,
+      "YY": 44.0,
+      "GradText": "London",
+      "DrzavaGradova": {
+        "DrzavaText": "Velika Britanija",
+        "Oznacena": true
+      },
+      "Oznacen": true
+    },
+    "Drzava": {
+      "DrzavaText": "Ujedinjeno Kraljevstvo",
+      "Oznacena": true
+    }
+  }
+]
